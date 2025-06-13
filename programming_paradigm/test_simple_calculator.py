@@ -38,7 +38,7 @@ class TestSimpleCalculator(unittest.TestCase):
         # Floats
         self.assertAlmostEqual(self.calc.multiply(2.5, 4.0), 10.0)
 
-    def test_division_normal(self):
+    def test_division(self):
         # Integer division
         self.assertEqual(self.calc.divide(10, 2), 5)
         # Float result
